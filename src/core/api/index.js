@@ -286,7 +286,7 @@ export function logOutFromServer({ api }: {| api: ApiState |}) {
   });
 }
 
-type AutocompleteParams = {|
+export type AutocompleteParams = {|
   api: ApiState,
   filters: {|
     query: string,
